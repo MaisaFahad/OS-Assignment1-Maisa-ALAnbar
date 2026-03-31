@@ -67,20 +67,23 @@ Follow the instruction written in the assignment and watch some videos
 
 ---
 
-### Entry 3 - [Date and Time]
-**What I did**: 
+### Entry 3 - [march 27th,2026 2:17 AM]
+**What I did**: implemented context switch counter (feature 2)
 
 **Details**: 
+- in SchedulerSimulation class Add a static counter variable for context switches outside main method
+- Increment the counter each time a new process starts running
+-  Display total context switches
+-  commit changes
 
-**Challenges**: 
+**Challenges**: choose the right place to adding the  counter in code 
 
-**Solution**: 
+**Solution**: search where the processes start runing
 
-**Time spent**: 
-
+**Time spent**:  30 minutes
 ---
 
-### Entry 4 - [Date and Time]
+### Entry 4 - []
 **What I did**: 
 
 **Details**: 
