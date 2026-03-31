@@ -98,21 +98,25 @@ display summary table showing: Process Name, Burst Time, Waiting
 Time for each processes+ calculate average time 
 **Solution**: 
 thinking of solutions and asking external assistance
-**Time spent**: 2-3 days 
+**Time spent**: 24 hours 
 
 ---
 
-### Entry 5 - [Date and Time]
-**What I did**: 
-
+### Entry 5 - [March 31st ,2026 12:30]
+**What I did**: updateWaitingTime() method
+In the Round Robin algorithm the process does not end all at once, but enters and exits the queue several times ,The function of this is to calculate the total waiting time of the process while it is in the queue each time it returns to the queue.
 **Details**: 
+-using lastReadyTime feild and currentTime local feild in process class to calculate totalWaitingTime
+_ like this ->    long currentTime=System.currentTimeMillis();
+       long waitTime=(currentTime - lastReadyTime); // time spent waiting since last added to ready queue
+        totalWaitingTime+= waitTime;
 
-**Challenges**: 
+**Challenges**: choose the right place to adding the method in code 
 
-**Solution**: 
+**Solution**: Called in the main method after dequeuing the process and before starting its thread
 
 **Time spent**: 
-
+15 minutes
 ---
 
 ### Entry 6 - [Optional - Date and Time]
@@ -130,10 +134,11 @@ thinking of solutions and asking external assistance
 
 ## Summary
 
-**Total time spent on assignment**: [X hours]
+**Total time spent on assignment**: [ 26 hours]
 
-**Most challenging part**: 
+**Most challenging part**: Feature 3
 
-**Most interesting learning**: 
+**Most interesting learning**: I learned how the CPU scheduler manages multiple processes using threads It was interesting to see how the Time Quantum works in practice forcing a process to leave the CPU and return to the 'Ready Queue'
 
 **What I would do differently next time**: 
+In the future I want to compare Round Robin with other algorithms like First-Come, First-Served (FCFS) to see which one is more efficient for different types of tasks and I would also like to improve the Priority feature so that higher-priority processes can jump to the front of the queue.
