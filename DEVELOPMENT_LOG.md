@@ -83,16 +83,22 @@ Follow the instruction written in the assignment and watch some videos
 **Time spent**:  30 minutes
 ---
 
-### Entry 4 - []
-**What I did**: 
+### Entry 4 - [March 31st, 2026 1:06 AM ]
+**What I did**: Feature 3: Track Waiting Time 
 
-**Details**: 
+**Details**:
+- Add fields to track
+- Calculate waiting time for each process
+-  Display a summary table showing: Process Name, Burst Time, Waiting
+Time
+-commit changes
 
 **Challenges**: 
-
+display summary table showing: Process Name, Burst Time, Waiting
+Time for each processes+ calculate average time 
 **Solution**: 
-
-**Time spent**: 
+thinking of solutions and asking external assistance
+**Time spent**: 2-3 days 
 
 ---
 
