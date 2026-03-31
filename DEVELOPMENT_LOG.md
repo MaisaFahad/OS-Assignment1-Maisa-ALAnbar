@@ -32,17 +32,22 @@ Document your development process as you work on the assignment. Add entries sho
 
 ## Your Development Log:
 
-### Entry 1 - [Date and Time]
+### Entry 1 - [March 12th, 2026 7:18 AM]
 **What I did**: 
-
+Forked a starter repository from GitHub and set my student ID 
 **Details**: 
 
+- created an account in GitHub with university email
+-  Renamed my Repository with  my username and made it public
+-  Forked the starter repository
+-  Changed student ID on line 192  to my actual ID (445052201)
+-  commit changes
 **Challenges**: 
-
+Learning on GitHub and using it for editing
 **Solution**: 
-
+Follow the instruction written in the assignment and watch some videos
 **Time spent**: 
-
+45 minutes
 ---
 
 ### Entry 2 - [Date and Time]
