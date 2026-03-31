@@ -50,16 +50,20 @@ Follow the instruction written in the assignment and watch some videos
 45 minutes
 ---
 
-### Entry 2 - [Date and Time]
-**What I did**: 
+### Entry 2 - [March 23rd, 2026 8:46 AM]
+**What I did**: Add Feature 1 : add process priority
 
 **Details**: 
+-  Add a priority field to the Process class
+-  in SchedulerSimulation class in main methode Generate random priorities when creating processes (integer 1-5)
+-    Display priority when a process enters the ready queue
+-    commit changes
 
-**Challenges**: 
+**Challenges**: Generate random priorities with value from 1 to 5 only
 
-**Solution**: 
+**Solution**: ask chatGPT to explain this for me  
 
-**Time spent**: 
+**Time spent**: 20 minutes
 
 ---
 
