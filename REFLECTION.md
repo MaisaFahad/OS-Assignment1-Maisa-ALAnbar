@@ -41,13 +41,13 @@ Answer the following questions about your learning experience. Each answer shoul
 
 ### What would you like to learn more about?
 
-[Any topics related to threading, concurrency, or operating systems that you're curious about?]
+[]
 
 ---
 
 ### How confident do you feel about multithreading concepts now?
 
-[Rate yourself and explain: Beginner / Intermediate / Confident]
+[Intermediate]
 
 [Explain your rating - what do you understand well? What needs more practice?]
 
@@ -55,4 +55,4 @@ Answer the following questions about your learning experience. Each answer shoul
 
 ### Feedback on the assignment
 
-[Any comments about the assignment? Was it helpful? Too easy/hard? Suggestions for improvement?]
+[Hard]
