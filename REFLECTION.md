@@ -9,7 +9,7 @@ Answer the following questions about your learning experience. Each answer shoul
 
 **Your Answer:**
 
-[Write your answer here. Discuss specific concepts like thread creation, thread states, how threads execute concurrently, what surprised you, etc.]
+[In this assignment, I learned how multithreading  helps us run maltiple processes at the same time , I used runnable interface to turn each process into a thread that can start and stop, I also learned how to use thread.join to make sure the program waits for one process to finish its turn before moving to the next,The most interesting part was seeing how the time quantum works it forces a process to step aside so another one can use the CPU,This taught me that multithreading is not just about speed, but also about organizing how and when each task runs]
 
 ---
 
@@ -17,7 +17,7 @@ Answer the following questions about your learning experience. Each answer shoul
 
 **Your Answer:**
 
-[Describe the specific challenge. Was it understanding the code? Implementing a feature? Using Git? Explain what made it difficult and how it relates to the course concepts.]
+[The most challenging  part for me was calculating the waiting time for each process in the final summary table(feature 3). Since we are using Round Robin, a process doesn't just run once and finish, it goes in and out of the queue many times. I found it hard to keep track of the time it spent waiting without losing the data from previous rounds. Also, making sure the table looked organized. It took a lot of patience to fix these small logic errors and get the final average correctly.]
 
 ---
 
@@ -25,7 +25,7 @@ Answer the following questions about your learning experience. Each answer shoul
 
 **Your Answer:**
 
-[Describe your problem-solving approach. Did you read documentation? Ask for help? Debug systematically? What resources did you use? What strategies worked?]
+[I managed to solve the problems I faced through a step-by-step testing process. I focused on one feature at a time ,To fix the timing issues, I researched how Java handles threads and how thread.join() ensures that the program waits for each task to finish. Whenever I got stuck, I re-read the assignment requirements  ,This approach helped me find and fix small bugs that were affecting the final average results, my sources include tutorial videos, search engines and Gemini.]
 
 ---
 
@@ -33,7 +33,7 @@ Answer the following questions about your learning experience. Each answer shoul
 
 **Your Answer:**
 
-[Give specific examples from real applications you use (web browsers, games, mobile apps, etc.). Explain why threads are useful in those scenarios. Connect to what you learned in this assignment.]
+[Multithreading is what makes our daily apps feel smooth and fast. In a web browser, one thread handles your scrolling while another downloads a file, just like how we moved different processes in and out of the CPU.Even in video games, separate threads handle the music and player movement at the same time. This assignment showed me that without these concepts, our apps would freeze every time they had to do a heavy task. Learning how to manage threads in Java helped me understand how real-world systems stay efficient and responsive for the user.]
 
 ---
 
