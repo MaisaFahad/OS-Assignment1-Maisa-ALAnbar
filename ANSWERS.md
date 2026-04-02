@@ -58,15 +58,15 @@ It must then wait for its turn again
 
 [Write your answer here. For each state, explain when P1 enters that state during the simulation. Use your understanding of the code to trace through the lifecycle.]
 
-1. **New**: [When is P1 in New state?]
+1. **New**: [P1 is in this state when the Process object is created but thread.start() has not been called yet]
 
-2. **Runnable**: [When does P1 become Runnable?]
+2. **Runnable**: [P1 enters this state as soon as we call start() ,It is ready to run and is waiting in the Ready Queue for the CPU to become available]
 
-3. **Running**: [When is P1 Running?]
+3. **Running**: [P1 is in this state when the CPU picks it from the queue and it starts executing its run() method]
 
-4. **Waiting**: [When/why would P1 be Waiting?]
+4. **Waiting**: [P1 enters a waiting state when we use Thread.sleep() to simulate processing time, or when the main thread uses join() to wait for P1 to finish its turn]
 
-5. **Terminated**: [When is P1 Terminated?]
+5. **Terminated**: [P1 reaches this state once its remainingTime reaches 0 and the run() method finishes execution,It is then removed from the system]
 
 ---
 
@@ -76,31 +76,33 @@ It must then wait for its turn again
 
 **Your Answer:**
 
-### Example 1: [Name of application/scenario]
+### Example 1: [Multi-tab Web Browsers like (Chrome or Firefox)]
 
 **Description**: 
-[Describe the real-world scenario or application]
+[When you have multiple tabs open in a browser, each tab often runs its own set of threads to render the page, execute JavaScript, or play a video.]
 
 **Why Round-Robin works well here**: 
-[Explain why Round-Robin scheduling is suitable. Consider fairness, responsiveness, predictability, etc.]
+[It provides Responsiveness. If one tab is trying to load a very "heavy" website, Round-Robin ensures that the CPU doesn't get stuck on that one tab. By giving each tab a small Time Quantum, the browser allows you to click on a different tab or scroll through a simpler page without the whole application freezing. It keeps the user experience smooth across all open tasks.]
 
-### Example 2: [Name of application/scenario]
+### Example 2: [Multi-User Access to a Cloud Server like (Google Docs)]
 
 **Description**: 
-[Describe the real-world scenario or application]
+[When multiple people are editing the same document or different documents on a cloud server at the same time, the server receives hundreds of "edit" requests every second.]
 
 **Why Round-Robin works well here**: 
-[Explain why Round-Robin scheduling is suitable. Consider fairness, responsiveness, predictability, etc.]
+[It provides Fairness and Parallelism. If one user is pasting a huge amount of text (a heavy task) and another user is just typing a single letter (a light task), Round-Robin ensures the server doesn't get stuck processing the big task first. By giving each user's request a small Time Quantum, everyone sees their changes appear on the screen almost instantly.]
 
 ---
 
 ## Summary
 
 **Key concepts I understood through these questions:**
-1. 
-2. 
-3. 
+1. Thread Lifecycle and States: I now understand how a process moves from being New to Runnable, and how it cycles between Running and Waiting based on the scheduler's decisions before finally reaching the Terminated state.
+   
+   2. Preemption and Fairness in Round-Robin: I learned that the Time Quantum is the heart of fairness; it ensures that no single "heavy" process can hog the CPU, by forcing it to yield and return to the Ready Queue if it doesn't finish in time
+
+ 3. Efficiency of Threads vs. Processes: I understood that Threads are "lightweight" because they share the same memory space, which makes Context Switching much faster and more efficient for simulating a high-speed CPU scheduler compared to using independent processes.
 
 **Concepts I need to study more:**
-1. 
-2. 
+1. Thread Synchronization and Race Conditions
+2. Advanced Scheduling Algorithms
