@@ -1,6 +1,7 @@
 # CS3701 Operating Systems - Assignment 1: Multithreading
 ## Round-Robin CPU Scheduler Simulation
-
+link of video:
+https://drive.google.com/file/d/1j8JibBzp8xP8pOfqchrb6VAYwsTTIhX3/view?usp=sharing
 ### 📋 Assignment Overview
 
 This assignment evaluates your ability to implement and work with multithreading in Java while introducing professional software development practices including version control (GitHub), code documentation, and project presentation. You will work with a CPU scheduling simulation that uses a **Round-Robin algorithm** with a fixed **time quantum**.
@@ -368,7 +369,7 @@ Create a **2-3 minute video** (not shorter, not longer) showing:
 - Show your face OR use clear voice narration
 - Screen recording showing your code and execution
 - Good audio quality (test your microphone first!)
-
+https://drive.google.com/file/d/1j8JibBzp8xP8pOfqchrb6VAYwsTTIhX3/view?usp=sharing
 **Recording Tools:**
 - **Mac:** QuickTime Player (File → New Screen Recording)
 - **Windows:** Xbox Game Bar (Win + G) or OBS Studio
